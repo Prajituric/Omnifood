@@ -315,6 +315,12 @@ body {
   opacity: 0.5;
 }
 
+.logos img:hover {
+  opacity: 1;
+  filter: none;
+  transition: all 0.3s;
+}
+
 /* HOW IT WORKS */
 
 .section-how {
@@ -511,6 +517,10 @@ body {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+.trying {
+  padding-bottom: 4.7rem;
 }
 
 .margin-bottom-media {
@@ -720,7 +730,7 @@ body {
 .cta-image-box {
   background-image: linear-gradient(
       to right bottom,
-      rgba(235, 151, 78, 0.35),
+      rgba(235, 151, 78, 0.15),
       rgba(230, 125, 34, 0.35)
     ),
     url(../img/eating.jpg);
@@ -794,7 +804,7 @@ body {
 .copyright {
   font-size: 1.4rem;
   line-height: 1.6;
-  color: #767676;
+  color: #343434;
   margin-top: auto;
 }
 
@@ -823,7 +833,7 @@ body {
 
 .footer-link:link,
 .footer-link:visited {
-  color: #767676;
+  color: #383838;
   font-size: 1.6rem;
   text-decoration: none;
   transition: all 0.3s;
