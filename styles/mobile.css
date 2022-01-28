@@ -206,8 +206,27 @@
   .hero-img {
     width: 80%;
   }
+
+  .heading-featured-in {
+    padding-bottom: 2rem;
+  }
+
+  .logo-scroll {
+    /* overflow-x: scroll; */
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: auto;
+  }
   .logos img {
-    height: 1.2rem;
+    height: 3rem;
+    padding: 0rem 1.5rem;
+    overflow: visible;
+  }
+  .logom {
+    margin-left: 39rem;
+  }
+  .logos::-webkit-scrollbar {
+    display: none;
   }
   .step-img-box:nth-child(2) {
     grid-row: 1;
